@@ -1,0 +1,65 @@
+/* Navigation */
+
+#navbar{
+    flex-direction: column;
+
+}
+
+#navbar ul li a{
+    padding: 3px 12px;
+    font-size: 13px;
+} 
+
+/* Home section */
+
+#HOME {
+    text-align: center;
+}
+
+#ABOUTME{
+    height: 88px;
+    margin-top: 44px;
+    justify-content: center;
+    text-align: center;
+}
+
+#ABOUTME h1{
+    padding: 3px 12px;
+}
+
+.me{
+    font-size: 15px
+}
+/* SKILLS SECTION IMG */
+#Logo img{
+    height: 200px;
+}
+
+
+.container{
+    height: 346px;
+    padding: 3px 12px;
+}
+
+#SKILLS h1{
+    margin-top: 104px;
+}
+
+
+#SKILLS p{
+    padding: 0px 20px;
+}
+
+/* PROJECTS SECTION */
+
+.Projects{
+    margin: 5px;
+}
+
+.Projects .box{
+    padding: 20px;
+    margin: 6px 5px;
+    font-size: 10px;
+    height: 232px;
+}
+

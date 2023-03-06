@@ -1,0 +1,321 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar Bar Design */
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 5%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+#navbar ul li {
+    align-items: center;
+
+}
+
+#navbar ul li a {
+    padding: 3px 20px;
+    text-decoration: none;
+    color: rgb(207, 204, 204);
+}
+
+#navbar ul li a:hover {
+    color: white;
+}
+
+
+
+/* HOME Section */
+
+#HOME {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#HOME::before {
+    content: "";
+    position: absolute;
+    background: url('../Images/2.jpg') no-repeat center center/cover;
+    height: 122.7%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+
+#HOME h1 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#HOME p {
+    font-size: 3.9rem;
+    color: white;
+}
+
+.name {
+    text-decoration: underline;
+}
+
+.name:hover {
+    background: rgb(253, 89, 29);
+    background: linear-gradient(90deg, rgba(253, 89, 29, 1) 0%, rgba(180, 58, 147, 1) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+#HOME div {
+    color: white;
+    font-size: 108%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* About me section */
+
+
+#ABOUTME {
+    display: flex;
+    flex-direction: column;
+    padding: 134px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(18, 34, 47);
+    background: linear-gradient(90deg, rgba(18, 34, 47, 1) 0%, rgba(2, 69, 130, 1) 65%);
+    height: 30px;
+    margin-top: 196px;
+}
+
+#ABOUTME ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#ABOUTME h1 {
+    margin-top: 100px;
+    font-size: 3rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(253, 89, 29);
+    background: linear-gradient(90deg, rgba(253, 89, 29, 1) 0%, rgba(180, 58, 147, 1) 70%);
+
+}
+
+.me {
+    font-size: 25px;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.text {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Skills section */
+#SKILLS {
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+}
+
+#SKILLS h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 74px;
+}
+
+
+
+/* Projects */
+.Projects {
+    margin: 34px;
+    display: flex;
+}
+
+#PROJECTS h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 15px;
+    border-top: 2px solid black;
+}
+
+.Projects .box {
+    background: rgb(18, 34, 47);
+    background: linear-gradient(90deg, rgba(18, 34, 47, 1) 0%, rgba(2, 69, 130, 1) 23%);
+    padding: 34px;
+    margin: 6px 83px;
+    color: white;
+}
+
+
+/* Contact me */
+
+#CONTACT {
+    height: 230px;
+    background: rgb(253, 89, 29);
+    background: linear-gradient(90deg, rgba(253, 89, 29, 1) 0%, rgba(180, 58, 147, 1) 70%);
+}
+
+
+#CONTACT h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact-item{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Clients Section */
+#client-section {
+    position: relative;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item {
+    padding: 34px;
+}
+
+#clients img {
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility class */
+
+.h-primary {
+    font-size: 3rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    color: red;
+}
+
+/* Image in ABout me */
+
+#Logo {
+    margin: 10px 34px;
+}
+
+#Logo img {
+    height: 262px;
+    margin: 3px 6px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+.center {
+    text-align: center;
+}
