@@ -1,65 +1,164 @@
 /* Navigation */
+@media only screen and (min-width: 412px) and (max-height: 915px){
 
-#navbar{
-    flex-direction: column;
+    #navbar ul {
+        /* display: flex; */
+        list-style: none;
+        padding: 5px 72px;
+        margin-top: 54px;
+        /* align-items: center; */
+        
+    }
+    #navbar ul li {
+        padding: 10px;
+        text-align: center;
+    }
 
+    #navbar ul li a {
+        padding: 4px;
+        font-size: 32px;
+    }
+
+    #HOME::before {
+        content: "";
+        position: center;
+        background: url(../Images/2.jpg) no-repeat center center/cover;
+        height: 137%;
+        width: 217%;
+    }
+
+    #HOME {
+        display: flex;
+        flex-direction: column;
+        padding: 3px 446px;
+        text-align: center;
+
+    }
+
+    #HOME p {
+        font-size: 3.9rem;
+        color: white;
+    }
+
+    #HOME div {
+        color: white;
+        font-size: 165%;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    /* ABout me */
+    #ABOUTME h1 {
+        margin-top: 80px;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+
+    }
+    #ABOUTME {
+        display: flex;
+        flex-direction: column;
+        padding: 180px 447px;
+        justify-content: center;
+        align-items: center;
+        background: rgb(18, 34, 47);
+        background: linear-gradient(90deg, rgba(18, 34, 47, 1) 0%, rgba(2, 69, 130, 1) 65%);
+        height: 40px;
+        margin-top: 40px;
+
+    }
+
+
+/* Skills section */
+#SKILLS {
+    text-align: center;
+    height: 400px;
+    padding: 15px 150px;
+    width: 590px;
 }
 
-#navbar ul li a{
-    padding: 3px 12px;
-    font-size: 13px;
-} 
+#SKILLS h1 {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 74px;
+}
 
-/* Home section */
 
-#HOME {
+
+/* Projects */
+
+#PROJECTS   {
+    width: 175px;
+}
+.Projects {
+    margin: 34px;
+    display: flex;
     text-align: center;
 }
 
-#ABOUTME{
-    height: 88px;
-    margin-top: 44px;
+#PROJECTS h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 15px;
+    border-top: 2px solid black;
+    width: 510%;
+}
+
+.Projects .box {
+    background: rgb(18, 34, 47);
+    background: linear-gradient(90deg, rgba(18, 34, 47, 1) 0%, rgba(2, 69, 130, 1) 23%);
+    padding: 24px;
+    margin: 6px 73px;
+    color: white;
+}
+
+
+
+/* Contact me */
+
+#CONTACT {
+    height: 230px;
+    background: rgb(253, 89, 29);
+    background: linear-gradient(90deg, rgba(253, 89, 29, 1) 0%, rgba(180, 58, 147, 1) 70%);
+    width: 217%;
+}
+
+
+#CONTACT h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#contact-box{
+    display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact-item{
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    width: 207%;
+}
+
+.center {
     text-align: center;
 }
-
-#ABOUTME h1{
-    padding: 3px 12px;
 }
-
-.me{
-    font-size: 15px
-}
-/* SKILLS SECTION IMG */
-#Logo img{
-    height: 200px;
-}
-
-
-.container{
-    height: 346px;
-    padding: 3px 12px;
-}
-
-#SKILLS h1{
-    margin-top: 104px;
-}
-
-
-#SKILLS p{
-    padding: 0px 20px;
-}
-
-/* PROJECTS SECTION */
-
-.Projects{
-    margin: 5px;
-}
-
-.Projects .box{
-    padding: 20px;
-    margin: 6px 5px;
-    font-size: 10px;
-    height: 232px;
-}
-
